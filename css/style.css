@@ -13,9 +13,33 @@
     width: calc(100% / 3);
     background-color: aqua;
     padding: 5px;
+    position: relative;
 }
 div.container>img{    
     width: 100%;
+}
+.reveal{
+    display: inline-block;
+}
+.conceal{
+    display:none;
+}
+.box{
+    padding: 2px;
+    position: relative;
+    bottom: 35px;
+}
+.discount{
+    display: inline-block;
+    background-color: red;
+}
+.sostenibilita{
+    display: inline-block;
+    background-color:green;
+}
+.heart-box{
+    
+
 }
 .text-container{
     display: inline-block;
