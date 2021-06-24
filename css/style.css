@@ -28,9 +28,11 @@ div.container>img{
     position: absolute;
 }
 .box{
-    padding: 2px;
+    padding: 3px;
     position: relative;
     bottom: 35px;
+    font-size: 13px;
+    color: white;
 }
 .discount{
     display: inline-block;
@@ -44,7 +46,7 @@ div.container>img{
   height: 25px;  
   width: 30px;
   display: inline-block;
-  background-color: blueviolet;
+  background-color: white;
   position: absolute;
   text-align: center;
   /* property to center the heart in the box */
@@ -57,4 +59,14 @@ div.container>img{
 }
 .text-container{
     display: inline-block;
+}
+.brand-title{
+    font-size: 13px;
+}
+.discounted-price{
+    color: red;
+    font-weight: bold;
+}
+.old-price{
+    text-decoration: line-through;
 }
