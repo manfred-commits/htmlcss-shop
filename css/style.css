@@ -8,6 +8,9 @@
     width: 80%;
     margin: auto;
 }
+.first{
+    margin-top: 20px;
+}
 .container{
     display: inline-block;
     width: calc(100% / 3);
@@ -49,19 +52,19 @@ div.container>img{
     background-color:green;
 }
 .heart-box{
-  height: 25px;  
-  width: 30px;
+  height: 35px;  
+  width: 40px;
   display: inline-block;
   background-color: white;
   position: absolute;
   text-align: center;
   /* property to center the heart in the box */
-  line-height: 25px;
+  line-height: 35px;
   /* top to position in the upper right corner of the img
   top: calc(0% + 5px); */
   top: calc(0% + 15px);
   right: calc(0% + 5px);
-
+  font-size: 30px;    
 }
 .text-container{
     display: inline-block;
@@ -75,4 +78,7 @@ div.container>img{
 }
 .old-price{
     text-decoration: line-through;
+}
+.second{
+    margin-bottom: 20px;
 }
