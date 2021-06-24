@@ -24,6 +24,9 @@ div.container>img{
 .conceal{
     display:none;
 }
+.discount-container{
+    position: absolute;
+}
 .box{
     padding: 2px;
     position: relative;
@@ -38,7 +41,18 @@ div.container>img{
     background-color:green;
 }
 .heart-box{
-    
+  height: 25px;  
+  width: 30px;
+  display: inline-block;
+  background-color: blueviolet;
+  position: absolute;
+  text-align: center;
+  /* property to center the heart in the box */
+  line-height: 25px;
+  /* top to position in the upper right corner of the img
+  top: calc(0% + 5px); */
+  top: calc(0% + 15px);
+  right: calc(0% + 5px);
 
 }
 .text-container{
