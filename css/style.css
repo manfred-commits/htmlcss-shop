@@ -24,6 +24,12 @@ div.container>img{
 .conceal{
     display:none;
 }
+.container:hover .conceal{
+    display:inline-block;
+}
+.container:hover .reveal{
+    display:none;
+}
 .discount-container{
     position: absolute;
 }
