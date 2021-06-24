@@ -4,7 +4,6 @@
     padding: 0;
 }
 .row{
-    background-color: red;
     width: 80%;
     margin: auto;
 }
@@ -14,7 +13,6 @@
 .container{
     display: inline-block;
     width: calc(100% / 3);
-    background-color: aqua;
     padding: 5px;
     position: relative;
 }
