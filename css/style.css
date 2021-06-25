@@ -70,11 +70,11 @@ div.container>img{
 .brand-title{
     font-size: 13px;
 }
-.discounted-price{
+.discount-container .discounted-price{
     color: red;
     font-weight: bold;
 }
-.old-price{
+.discount-container  .old-price{
     text-decoration: line-through;
 }
 .second{
