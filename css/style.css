@@ -20,13 +20,13 @@ div.container>img{
     width: 100%;
 }
 .reveal{
-    display: inline-block;
+    display: block;
 }
 .conceal{
     display:none;
 }
 .container:hover .conceal{
-    display:inline-block;
+    display:block;
 }
 .container:hover .reveal{
     display:none;
